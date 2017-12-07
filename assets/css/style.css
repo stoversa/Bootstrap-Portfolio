@@ -9,7 +9,7 @@ body {
 	color:#777777;
 	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	  /* Margin bottom by footer height */
-  margin-bottom: 60px;
+   margin-bottom: 60px;
 }
 
 h1, h2, h3, .navbar-brand, .panel-title {
@@ -20,6 +20,16 @@ h1, h2, h3, .navbar-brand, .panel-title {
 
 h1, h2, .name {
 	font-size:30px;
+}
+
+a {
+	color:#777777;
+	text-decoration:none;
+}
+
+a:hover { 
+    text-decoration: underline;
+    color: #4AAAA5; /*Teal*/
 }
 
 .navbar {
@@ -47,10 +57,15 @@ h1, h2, .name {
 
 .page-header {
 	margin-top:0px;
+	border-bottom: 2px solid #cccccc;
 }
 
 .section-header {
 	margin-top:5px;
+}
+
+.main-text {
+	font-size: 120%;
 }
 
 .panel-heading {
